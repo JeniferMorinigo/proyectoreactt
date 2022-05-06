@@ -1,3 +1,4 @@
+import CartIcon from "../CartIcon/CartIcon";
 export default function Navbar() {
     
     const headerStyles = {
@@ -16,6 +17,8 @@ export default function Navbar() {
                 <li>Productos</li>
                 <li>Quienes somos</li>
             </ul>
+            <CartIcon count="0"/>
+            
         </header>
     );
 }
