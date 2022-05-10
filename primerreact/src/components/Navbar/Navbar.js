@@ -17,7 +17,7 @@ export default function Navbar() {
                 <li>Productos</li>
                 <li>Quienes somos</li>
             </ul>
-            <CartIcon count="0"/>
+            <CartIcon count={0}/>
             
         </header>
     );

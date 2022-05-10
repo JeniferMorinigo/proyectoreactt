@@ -1,12 +1,18 @@
+
 import Navbar from"./components/Navbar/Navbar";
-import ItemList from "./components/ItemList/ItemList";
+import ItemListContainer from "./components/ItemListContainer/ItemListContainer";
 
 function App() {
+  
   return (
+    
     <div className="App">
       <Navbar/>
-      <ItemList greeting={"STEP OUT WE ARE SKZ"}/>
+      <ItemListContainer greeting={"STEP OUT WE ARE SKZ"} />
+      
     </div>
+    
+
   );
 }
 
