@@ -1,13 +1,26 @@
 import React, {useState} from "react";
-export default function ItemCount ({count})
 
-function ItemCount() {
+export function ItemCount() {
     const [count, setCount] = useState(0);
+    
+    const sumar = () => {
+        if(count < stock){
+
+            setCount (count +1)
+        }
+    }
+    const restar = () => {
+        if (count >0){
+
+            setCount (count -1)
+        }
+    }
     
     return (
         <>
+        <button onClick={restar}>-</button>
         <p>{count}</p>
-        <button onClick={()=> setCount(count +1)}>Contador</button>
+        <button onClick={sumar}>+</button>
         </>
     )
 
