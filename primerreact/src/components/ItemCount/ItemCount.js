@@ -1,6 +1,6 @@
 import React, {useState} from "react";
 
-export function ItemCount() {
+export function ItemCount(stock) {
     const [count, setCount] = useState(0);
     
     const sumar = () => {
