@@ -2,6 +2,7 @@ import react from "react"
 import ItemDetail from "../ItemDetail/ItemDetail"
 import {product} from "../Productos/Productos"
 
+export default function ItemDetailContainer () {
 const GetItem = () => {
 
     const [Item, setItem] = useState([]);
@@ -20,4 +21,5 @@ const GetItem = () => {
         </>
     )
 
+}
 }

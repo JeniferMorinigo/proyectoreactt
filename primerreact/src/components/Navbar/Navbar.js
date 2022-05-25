@@ -13,7 +13,7 @@ export default function Navbar() {
                 SKZ
             </div>
             <ul className="links" style={headerStyles}>
-                <li>Inicio</li>
+                <li >Inicio</li>
                 <li>Productos</li>
                 <li>Quienes somos</li>
             </ul>

@@ -2,8 +2,7 @@ export const productList = [
     {
       name: 'Pines',
       price: 90,
-      thumbnail:
-        'https://ar.pinterest.com/pin/155303887176347833/',
+      thumbnail:"../Images/pins.jpg",
       stock: 30,
       id: 1,
     },
@@ -11,7 +10,7 @@ export const productList = [
       name: 'Phoocards',
       price: 150,
       thumbnail:
-        'https://ar.pinterest.com/pin/604186106272042014/',
+        '../Images/photocards.jpg',
       stock:25,
       id: 2,
     },
@@ -19,7 +18,7 @@ export const productList = [
       name: 'Llaveros',
       price: 275,
       thumbnail:
-        'https://ar.pinterest.com/pin/41165784084595769/',
+        '../Images/llaveros.jpg',
       stock: 19,
       id: 3,
     },
